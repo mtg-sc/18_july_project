@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --bg-primary: #000000;
+    --bg-overlay-1: #0000005b;
+    --bg-overlay-2: #0a0a0a66;
+    --bg-secondary: #0d0d0d;
+    --bg-overlay-3: #0d0d0d70;
+    --bg-tertiary: #3b3b3b;
+    --bg-accent: #7612fa;
+    --bg-light-1: #e6e6e6;
+    --bg-white: #ffffff;
+    --bg-white-overlay-1: #ffffff11;
+    --bg-white-overlay-2: #ffffff14;
+    --bg-white-overlay-3: #ffffff19;
+    --bg-white-overlay-4: #ffffff33;
+    --bg-white-overlay-5: #ffffffa5;
+
+    /* Text Colors */
+    --text-muted: #a0a0a0;
+    --text-light-muted: #f5f7ffa5;
+    --text-primary: #ffffff;
+    --text-secondary: #ffffff74;
+    --text-tertiary: #ffffffa5;
+
+    /* Header Colors */
+    --header-bg: #000000cc;
+
+    /* Button Colors */
+    --button-bg: #6363634c;
+    --button-text: #04070d;
+  }
+}
+
+@layer utilities {
+  /* Background Colors */
+  .bg-primary {
+    background-color: var(--bg-primary);
+  }
+  .bg-overlay-1 {
+    background-color: var(--bg-overlay-1);
+  }
+  .bg-overlay-2 {
+    background-color: var(--bg-overlay-2);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-overlay-3 {
+    background-color: var(--bg-overlay-3);
+  }
+  .bg-tertiary {
+    background-color: var(--bg-tertiary);
+  }
+  .bg-accent {
+    background-color: var(--bg-accent);
+  }
+  .bg-light-1 {
+    background-color: var(--bg-light-1);
+  }
+  .bg-white {
+    background-color: var(--bg-white);
+  }
+  .bg-white-overlay-1 {
+    background-color: var(--bg-white-overlay-1);
+  }
+  .bg-white-overlay-2 {
+    background-color: var(--bg-white-overlay-2);
+  }
+  .bg-white-overlay-3 {
+    background-color: var(--bg-white-overlay-3);
+  }
+  .bg-white-overlay-4 {
+    background-color: var(--bg-white-overlay-4);
+  }
+  .bg-white-overlay-5 {
+    background-color: var(--bg-white-overlay-5);
+  }
+
+  /* Text Colors */
+  .text-muted {
+    color: var(--text-muted);
+  }
+  .text-light-muted {
+    color: var(--text-light-muted);
+  }
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-tertiary {
+    color: var(--text-tertiary);
+  }
+
+  /* Header Colors */
+  .bg-header {
+    background-color: var(--header-bg);
+  }
+
+  /* Button Colors */
+  .bg-button {
+    background-color: var(--button-bg);
+  }
+  .text-button {
+    color: var(--button-text);
+  }
+}
